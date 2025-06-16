@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto - Helados Panda</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<header class="bg-info text-white p-4 text-center">
+  <h1>Contáctanos</h1>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Helados Panda</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuNav">
+        <ul class="navbar-nav me-auto">
+          <form class="d-flex" role="search">
+  <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar">
+  <button class="btn btn-outline-success" type="submit">Buscar</button>
+</form>
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="productos.html">Productos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contactos.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<main class="container mt-4">
+  <h2>Formulario de Inscripción</h2>
+  <form>
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre:</label>
+      <input type="text" id="nombre" class="form-control" name="nom">
+    </div>
+
+    <div class="mb-3">
+      <label for="correo" class="form-label">Correo:</label>
+      <input type="email" id="correo" class="form-control" name="correo">
+    </div>
+
+    <div class="mb-3">
+      <label for="ciudad" class="form-label">Ciudad:</label>
+      <select class="form-select" name="ciudad" id="ciudad">
+        <option>La Paz</option>
+        <option>Cochabamba</option>
+        <option>Santa Cruz</option>
+        <option>Oruro</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="coment" class="form-label">Comentarios:</label>
+      <textarea name="coment" class="form-control" rows="5"></textarea>
+    </div>
+
+    <div class="form-check mb-3">
+      <input type="checkbox" class="form-check-input" id="promo" name="promo">
+      <label class="form-check-label" for="promo">Enviar promociones por correo</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Aceptar</button>
+  </form>
+</main>
+
+<footer class="bg-dark text-white text-center p-3">
+    <footer class="bg-dark text-white text-center p-3">
+  <div class="container">
+    
+    <nav aria-label="Paginación de Helados Panda">
+      <ul class="pagination justify-content-center mb-0">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1">«</a>
+        </li>
+       <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="productos.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="contactos.html">3</a></li>
+        <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+        <li class="page-item"><a class="page-link" href="#">10</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">»</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    &copy; 2025 Helados Panda - Todos los derechos reservados
+  
+  </footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

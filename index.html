@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Helados Panda</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+<header class="bg-primary text-white p-3 d-flex align-items-center justify-content-between">
+  <img src="img/logo.png" alt="Helados Panda" class="logo">
+  <div id="mainCarousel" class="carousel slide carrusel" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/uno.jpg" class="d-block w-100 imgtot" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/dos.jpg" class="d-block w-100 imgtot" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/tres.jpg" class="d-block w-100 imgtot" alt="...">
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Helados Panda</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuNav">
+        <ul class="navbar-nav me-auto">
+     <form class="d-flex ms-auto" role="search">
+  <input class="form-control me-2" type="search" placeholder="Buscar en la página..." id="buscador">
+</form>
+
+
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="productos.html">Productos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contactos.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="contenedor">
+    <aside class="izquierdo">
+        <div class="alert alert-warning">
+          <img src="img/conohelado.jpg">
+
+  ¡Todos los <strong>martes y jueves 2x1</strong> en todos los conos!
+</div>
+      <h3>¡Nuevo Helado Tropical!</h3>
+      <p>Prueba nuestro nuevo helado de mango con maracuyá. ¡Sabor que enamora!</p>
+      <img src="img/helado-nuevo.jpg" alt="Helado nuevo" class="img-fluid rounded">
+      <div class="mt-4">
+  <h5>Síguenos</h5>
+  <ul class="list-unstyled d-flex gap-3">
+    <li><a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram" width="30"></a></li>
+    <li><a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook" width="30"></a></li>
+    <li><a href="https://www.tiktok.com" target="_blank"><img src="img/tiktok.png" alt="TikTok" width="30"></a></li>
+  </ul>
+</div>
+<div class="accordion mt-4" id="faqAccordion">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+        ¿Qué tipo de leche usan?
+      </button>
+    </h2>
+    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        Utilizamos leche 100% natural pasteurizada de productores locales bolivianos.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+        ¿Tienen opciones sin azúcar?
+      </button>
+    </h2>
+    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        Sí, contamos con helados bajos en azúcar y sin azúcar añadida para diabéticos.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+        ¿Dónde puedo encontrar sus productos?
+      </button>
+    </h2>
+    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        Nuestros productos están en supermercados, tiendas y puntos de venta Panda en toda Bolivia.
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mt-4">
+  <h5>Valora nuestros helados</h5>
+
+  <!-- Estrellas de valoración -->
+  <div class="mb-2">
+    <span class="text-warning fs-4">&#9733;</span>
+    <span class="text-warning fs-4">&#9733;</span>
+    <span class="text-warning fs-4">&#9733;</span>
+    <span class="text-warning fs-4">&#9734;</span>
+    <span class="text-warning fs-4">&#9734;</span>
+    <small class="text-muted ms-2">(3 de 5)</small>
+  </div>
+
+  <!-- Caja de comentarios -->
+  <textarea class="form-control mb-2" rows="3" placeholder="Escribe tu comentario..."></textarea>
+  <button class="btn btn-primary w-100">Enviar</button>
+</div>
+
+    </aside>
+
+    <main>
+      <article>
+        <h2>Nuestros Helados</h2>
+        <p>Disfruta la variedad de sabores que Helados Panda tiene para ti: clásicos, frutales, cremosos y mucho más.</p>
+        <img src="img/helado-clasico.jpg" class="img-fluid rounded" alt="Helado clásico">
+          <section class="mb-4">
+    <h2 class="text-primary">¿Quiénes somos?</h2>
+    <p>
+      <strong>PANDA</strong> es una industria de helados líder en alimentos lácteos mejorada, procesada y con calidad, que nos brinda productos funcionales y nutricionales para sus clientes en <strong>BOLIVIA</strong>. La empresa se responsabiliza de satisfacer a sus clientes con productos de alta calidad y eficiencia, adoptando así la <strong>NORMA ISO 22000</strong> (norma enfocada a la gestión de la inocuidad de los alimentos). Esta norma se sigue de principio a fin para asegurar la higiene en los productos y la seguridad de los clientes y/o consumidores.
+    </p>
+  </section>
+
+  <section class="mb-4">
+    <h2 class="text-primary">Historia</h2>
+    <p>
+      <strong>Panda</strong>, la primera industria de helados de Bolivia, fue creada el <strong>17 de mayo de 1988</strong> en la ciudad de La Paz.
+    </p>
+  </section>
+
+  <section class="mb-4">
+    <h2 class="text-primary">Misión</h2>
+    <p>
+      Ser una industria de alimentos que mejore el nivel nutricional y la calidad de productos funcionales para nuestros clientes.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="text-primary">Visión</h2>
+    <p>
+      Para el logro de la visión se enfatizará en la concientización del personal, valorar sus cualidades, formación de equipos de trabajo, unión de esfuerzos, investigación para productos funcionales con tecnología de punta que permita satisfacer las expectativas del cliente interno y externo, con el apoyo de políticas del directorio.
+    </p>
+  </section>
+
+  <!-- COMPONENTE 1: Barra de Progreso -->
+<section class="mt-5">
+  <h3>Nivel de Satisfacción de Clientes</h3>
+  <p>Más del 90% de nuestros clientes recomiendan Helados Panda.</p>
+  <div class="progress">
+    <div class="progress-bar bg-success" role="progressbar" style="width: 93%;" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100">93%</div>
+  </div>
+</section>
+
+<!-- COMPONENTE 2: Toast - Mensaje Emergente -->
+<section class="position-relative mt-5">
+  <button type="button" class="btn btn-warning" id="mostrarToast">🎉 Ver Promoción</button>
+
+  <div class="toast-container position-absolute top-0 end-0 p-3">
+    <div id="promoToast" class="toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body">
+          ¡Obtén 2x1 en helados familiares este fin de semana! 🍦
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Cerrar"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      </article>
+    </main>
+
+    <aside class="derecho">
+    
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Canjea tu Código</h5>
+          <p class="card-text">Introduce tu código de promoción y recibe un helado gratis.</p>
+          <input type="text" class="form-control mb-2" placeholder="Código">
+          <button class="btn btn-success w-100">Canjear</button>
+        </div>
+      </div>
+        <div class="mt-4">
+  <h5>Ubicación</h5>
+  <iframe
+    src="https://www.google.com/maps?q=La+Paz,+Bolivia&output=embed"
+    width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+  </iframe>
+</div>
+<div class="card mt-4 bg-warning text-dark text-center shadow">
+  <div class="card-body">
+    <h5 class="card-title">Contador de Visitas</h5>
+    <p id="contadorVisitas" class="display-6 fw-bold"></p>
+  </div>
+</div>
+
+<script>
+  let visitas = localStorage.getItem('contadorVisitas') || 0;
+  visitas++;
+  localStorage.setItem('contadorVisitas', visitas);
+  document.getElementById('contadorVisitas').innerText = visitas;
+</script>
+<div class="mt-4">
+  <h5><i class="bi bi-clock-fill text-primary"></i> Horario de Atención</h5>
+  <ul class="list-group" id="horario-lista">
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <span>Lunes</span><span class="badge bg-success">9:00 - 18:00</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <span>Martes</span><span class="badge bg-success">9:00 - 18:00</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <span>Miércoles</span><span class="badge bg-success">9:00 - 18:00</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <span>Jueves</span><span class="badge bg-success">9:00 - 18:00</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <span>Viernes</span><span class="badge bg-success">9:00 - 18:00</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <span>Sábado</span><span class="badge bg-warning text-dark">10:00 - 16:00</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <span>Domingo</span><span class="badge bg-danger">Cerrado</span>
+    </li>
+  </ul>
+</div>
+<div class="container mt-5 p-4 border rounded bg-light shadow">
+  <h3 class="mb-4 text-primary">🛒 Realiza tu pedido</h3>
+
+  <form action="/enviar_pedido.php">
+    <div class="mb-3">
+      <label for="ciudad" class="form-label">🌍 Ciudad</label>
+      <select class="form-select" id="ciudad" name="ciudad">
+        <option selected disabled>Seleccione su ciudad</option>
+        <option>La Paz</option>
+        <option>Santa Cruz</option>
+        <option>Cochabamba</option>
+        <option>Oruro</option>
+        <option>Sucre</option>
+        <option>Tarija</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="helado" class="form-label">🍦 Tipo de Helado</label>
+      <select multiple class="form-select" id="helado" name="helado">
+        
+        <option>🍓 Frutilla</option>
+        <option>🍫 Chocolate</option>
+        <option>🥭 Mango-Maracuyá</option>
+        <option>🍦 Vainilla Clásica</option>
+        <option>🥥 Coco Tropical</option>
+        <option>🎉 Panda Especial</option>
+      </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">📩 Enviar Pedido</button>
+  </form>
+</div>
+
+
+    </aside>
+
+</div>
+  <footer class="bg-dark text-white text-center p-3">
+    <footer class="bg-dark text-white text-center p-3">
+  <div class="container">
+    
+    <nav aria-label="Paginación de Helados Panda">
+      <ul class="pagination justify-content-center mb-0">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1">«</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="productos.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="contactos.html">3</a></li>
+        <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+        <li class="page-item"><a class="page-link" href="#">10</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">»</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    &copy; 2025 Helados Panda - Todos los derechos reservados
+  
+  </footer>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const dias = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+    const hoy = new Date().getDay(); // 0 = Domingo, 1 = Lunes, etc.
+
+    const lista = document.querySelectorAll('#horario-lista li');
+    lista.forEach(li => {
+      if (li.textContent.includes(dias[hoy])) {
+       li.classList.add('text-white');
+       li.style.backgroundColor='#0d6efd33'; // Bootstrap styles
+      }
+    });
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const buscador = document.getElementById("buscador");
+
+    buscador.addEventListener("input", () => {
+      const texto = buscador.value.trim().toLowerCase();
+      const bloques = document.querySelectorAll("main, aside, article, section, footer");
+
+      bloques.forEach(bloque => {
+        // Restaurar texto original (quitar <mark>)
+        bloque.innerHTML = bloque.innerHTML.replace(/<mark>(.*?)<\/mark>/gi, "$1");
+
+        if (texto !== "") {
+          // Crear expresión regular con palabra
+          const regex = new RegExp(`(${texto})`, "gi");
+          bloque.innerHTML = bloque.innerHTML.replace(regex, "<mark>$1</mark>");
+        }
+      });
+    });
+  });
+</script>
+
+<script>
+  document.getElementById('mostrarToast').addEventListener('click', function () {
+    var toastEl = document.getElementById('promoToast');
+    var toast = new bootstrap.Toast(toastEl);
+    toast.show();
+  });
+</script>
+
+</body>
+</html>
